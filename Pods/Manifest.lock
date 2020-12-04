@@ -1,0 +1,16 @@
+PODS:
+  - YDHomePage (0.0.1)
+
+DEPENDENCIES:
+  - YDHomePage (from `YDHomePage.podspec`)
+
+EXTERNAL SOURCES:
+  YDHomePage:
+    :path: YDHomePage.podspec
+
+SPEC CHECKSUMS:
+  YDHomePage: d7be5c6bcad894e201b554ef5578506baab2a121
+
+PODFILE CHECKSUM: 537903e932e2982e7d4001792ba32a069cd65622
+
+COCOAPODS: 1.9.3
