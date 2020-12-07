@@ -8,7 +8,7 @@
 import UIKit
 
 @objc class Target_YDHomePage: NSObject {
-    @objc func Action_PushHomePage(_ params:NSDictionary, callback:@escaping (String) -> Void) -> UIViewController{
+    @objc func Action_PushHomePage(_ params:NSDictionary) -> UIViewController{
         let homePage = YDHomepageViewController()
         if let messgae = params["message"] as? String{
             homePage.message = messgae
