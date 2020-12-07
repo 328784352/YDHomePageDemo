@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "YDHomePage"
-  spec.version      = "0.0.1"
+  spec.version      = "0.0.2"
   spec.summary      = "A short description of YDHomePage."
 
   # This description is used to generate tags and improve search results.
@@ -28,7 +28,7 @@ Pod::Spec.new do |spec|
                       这是一个组件化测试demo
                    DESC
 
-  spec.homepage     = "https://github.com/328784352/YDHomePage.git"
+  spec.homepage     = "https://github.com/328784352/YDHomePageDemo.git"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -80,19 +80,19 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/328784352/YDHomePage.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/328784352/YDHomePageDemo.git", :tag => "#{spec.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
   #  CocoaPods is smart about how it includes source code. For source files
   #  giving a folder will include any swift, h, m, mm, c & cpp files.
-  #  For header files it will include any header in the folder.
+  #  For header files it will include any header in the folder.w
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "YDHomePage/**/*.{swift}"
-  spec.exclude_files = "YDHomePage/**/*.{swift}"
+  spec.source_files  = "YDHomePage/**/*.swift"
+  #spec.exclude_files = "YDHomePage/**/*.{swift}"
 
   # spec.public_header_files = "Classes/**/*.h"
 

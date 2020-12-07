@@ -141,7 +141,6 @@
 				F5859DC0874169F64A8A88AF /* Pods-YDHomePageDemo.debug.xcconfig */,
 				2DD9BD9C9E815755C3E7E945 /* Pods-YDHomePageDemo.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
