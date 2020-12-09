@@ -21,7 +21,8 @@ class YDHomepageViewController: UIViewController {
 
         let nameLabel = UILabel()
         nameLabel.font = UIFont.systemFont(ofSize: 20)
-        nameLabel.text = "我是YDHomePage"
+        nameLabel.text = "我是共有版和定制加载一起的YDHomePage~~"
+        nameLabel.numberOfLines = 0
         nameLabel.frame = CGRect(x: 15, y: 100, width: UIScreen.main.bounds.size.width, height: 100)
         self.view.addSubview(nameLabel)
         
